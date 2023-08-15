@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.maindiv {
+    width: 1000px;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+}
+
+.basic {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.div1 {
+    background: rgb(10, 136, 238);
+    transform: translate(0);
+}
+
+.div1:hover {
+    transform: translate(-52px, 0px);
+}
+
+.div2 {
+    background: green;
+    transform: rotate(0);
+}
+
+.div2:hover {
+    transform: rotate(498deg);
+}
+
+.div3 {
+    background-color: red;
+    transform: skew(0);
+}
+
+.div3:hover {
+    transform: skew(27deg, 20deg);
+}
+
+.div4 {
+    background-color: yellow;
+    transform: scale(1);
+}
+
+.div4:hover {
+    background-color: yellow;
+    transform: scale(1.3);
+}
